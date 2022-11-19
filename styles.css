@@ -23,12 +23,21 @@
     background-color: rgb(37, 55, 59);;
 }
 .remove {
-    display: flex;
-    
+    display: flex;    
     justify-content: space-between;
 }
 .backspace, .clear{
     background-color: rgb(17, 43, 48);
+}
+.screen{
+    height:130px;
+    display: flex;
+    justify-content:right;
+    font-size: 40px;
+    
+    
+    background-color: rgb(154, 163, 170);
+    
 }
 .display{
     height: 130px;
@@ -47,12 +56,13 @@ button{
     padding: 2px;
     padding-right: 6px;
     padding-left: 6px;
-    background-color: rgb(47, 68, 73);
+    background-color: rgb(91, 106, 109);
     border-radius: 4px;
     font-family: exo;
     border: 2px solid rgb(71, 69, 69);
     cursor: pointer;
     color: rgb(222, 222, 232);
+    font-size: 20px;
 }
 button:hover{
     background-color: rgb(17, 43, 48);
