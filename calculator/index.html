@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator">
+                                      
+            <p class="screen"></p>            
+            <div class="remove">
+                <button class="selection" data-clear="backspace"><---</button> <!--use data-wiper if necessary-->
+                <button class="clear" data-clear="clear">AC</button>
+            </div>
+            <div class="first">
+                <button class="selection" data-val="1">1</button>
+                <button class="selection" data-val="2">2</button>
+                <button class="selection" data-val="3">3</button>
+                <button class="selection" data-oper="+">+</button>
+            </div>
+            <div class="second">
+                <button class="selection" data-val="4">4</button>
+                <button class="selection" data-val="5">5</button>
+                <button class="selection" data-val="6">6</button>
+                <button class="selection" data-oper="-">-</button>
+            </div>
+            <div class="third">
+                <button class="selection"data-val="7">7</button>
+                <button class="selection"data-val="8">8</button>
+                <button class="selection"data-val="9">9</button>
+                <button class="selection"data-oper="*">*</button>
+            </div>
+            <div class="fourth">
+                <button class="selection" data-val=".">.</button>
+                <button class="selection" data-val="0">0</button>
+                <button class="selection" data-oper="=">=</button>
+                <button class="selection" data-oper="/">/</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
